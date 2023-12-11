@@ -31,6 +31,6 @@ class GlobalFilter: GlobalFilter, Ordered {
     }
 
     override fun getOrder(): Int {
-        return -1
+        return 1
     }
 }
