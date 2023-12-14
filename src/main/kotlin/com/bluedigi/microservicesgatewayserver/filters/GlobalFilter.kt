@@ -26,7 +26,7 @@ class GlobalFilter: GlobalFilter, Ordered {
                     exchange.response.headers.add("token",it)
                 }
                 exchange.response.cookies.add("color",ResponseCookie.from("color","rojo").build())
-                exchange.response.headers.contentType = MediaType.TEXT_PLAIN
+                exchange.response.headers.contentType = MediaType.APPLICATION_JSON
             })
     }
 
